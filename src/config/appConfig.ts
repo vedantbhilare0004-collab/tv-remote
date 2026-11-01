@@ -17,23 +17,11 @@ export interface ReleaseLog {
 export const APP_CONFIG = {
   // Required core configuration
   APP_NAME: "LG Control – Smart TV Remote",
-  APP_VERSION: "v1.4.2",
-  RELEASE_DATE: "October 24, 2026",
-  APK_SIZE: "14.8 MB",
-  APK_FILENAME: "lg-control-v1.4.2.apk",
-
-  /**
-   * APK DOWNLOAD URL OPTIONS:
-   * 
-   * Option A (Self-Hosted on this website):
-   * Put your APK file into `/public/downloads/lg-control-v1.4.2.apk` and set:
-   * APK_DOWNLOAD_URL: "/downloads/lg-control-v1.4.2.apk",
-   * 
-   * Option B (GitHub Releases - Recommended for free high bandwidth):
-   * Upload to GitHub Releases and set:
-   * APK_DOWNLOAD_URL: "https://github.com/your-username/lg-control/releases/download/v1.4.2/lg-control-v1.4.2.apk",
-   */
-  APK_DOWNLOAD_URL: "/downloads/lg-control-v1.4.2.apk",
+  APP_VERSION: "App-Version1",
+  RELEASE_DATE: "November 2026",
+  APK_SIZE: "4.75 MB",
+  APK_FILENAME: "LG-Control.3.apk",
+  APK_DOWNLOAD_URL: "https://github.com/vedantbhilare0004-collab/tv-remote/releases/download/App-Version1/LG-Control.3.apk",
   MIN_ANDROID_VERSION: "Android 8.0 (Oreo) or higher (API level 26+)",
 
   // Extended technical attributes
@@ -43,14 +31,14 @@ export const APP_CONFIG = {
   PACKAGE_NAME: "com.lgcontrol.remote",
   TARGET_ANDROID: "Android 15 (API 35)",
   ARCHITECTURE: "Universal (arm64-v8a, armeabi-v7a, x86_64)",
-  SHA256_CHECKSUM: "9d8e7a6b5c4f3e2d1a0b9c8d7e6f5a4b3c2d1e0f9a8b7c6d5e4f3a2b1c0d9e8f",
+  SHA256_CHECKSUM: "cc6f0ed0bcc5d291ab380e50c9645f7823ab49e0c5d9821d3f9b2c8a4e107b32",
   SIGNATURE_SCHEME: "APK Signature Scheme v2 + v3",
   PRIVACY_POLICY_LAST_UPDATED: "October 2026",
   
   // GitHub & Distribution URLs
-  GITHUB_REPO_URL: "https://github.com/lg-control/lg-control-android",
-  GITHUB_RELEASES_URL: "https://github.com/lg-control/lg-control-android/releases",
-  GITHUB_ISSUES_URL: "https://github.com/lg-control/lg-control-android/issues",
+  GITHUB_REPO_URL: "https://github.com/vedantbhilare0004-collab/tv-remote",
+  GITHUB_RELEASES_URL: "https://github.com/vedantbhilare0004-collab/tv-remote/releases",
+  GITHUB_ISSUES_URL: "https://github.com/vedantbhilare0004-collab/tv-remote/issues",
   CONTACT_EMAIL: "support@lgcontrol.app",
   
   // Protocol details
@@ -61,17 +49,17 @@ export const APP_CONFIG = {
 
 export const RELEASES_HISTORY: ReleaseLog[] = [
   {
-    version: "v1.4.2",
-    date: "October 24, 2026",
+    version: "App-Version1",
+    date: "November 2026",
     tag: "Latest Stable",
-    summary: "Refined webOS 24 handshake, improved directional responsiveness, and YouTube voice typing dispatch.",
-    apkSize: "14.8 MB",
-    sha256: "9d8e7a6b5c4f3e2d1a0b9c8d7e6f5a4b3c2d1e0f9a8b7c6d5e4f3a2b1c0d9e8f",
+    summary: "Official release of LG Control Android APK (LG-Control.3.apk) with local network webOS integration.",
+    apkSize: "4.75 MB",
+    sha256: "cc6f0ed0bcc5d291ab380e50c9645f7823ab49e0c5d9821d3f9b2c8a4e107b32",
     highlights: [
-      "Optimized WebSocket handshake timing for webOS 23 & 24 firmware updates",
-      "Added direct YouTube search input dispatch from phone keyboard or speech-to-text",
-      "Directional D-pad latency tuned to sub-18ms over standard 5GHz Wi-Fi networks",
-      "Graceful background reconnection when switching between Android apps"
+      "Lightweight 4.75 MB APK package with zero bloated analytics or cloud dependencies",
+      "Instant D-pad directional navigation, volume rocker & mute shortcuts",
+      "Direct YouTube search bridge and installed webOS app launcher",
+      "Sub-20ms directional response over local home Wi-Fi"
     ]
   },
   {
